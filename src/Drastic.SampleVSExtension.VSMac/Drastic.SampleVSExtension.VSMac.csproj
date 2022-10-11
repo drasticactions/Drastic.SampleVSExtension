@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-macos</TargetFramework>
+		<IsAddin>True</IsAddin>
+		<IsPackable>False</IsPackable>
+		<ProjectCapability>VSMAddin</ProjectCapability>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <UseSGen>false</UseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <UseSGen>false</UseSGen>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\stylecop.json" Link="stylecop.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudioMac.Sdk" Version="17.0.0" />
+    <PackageReference Include="Drastic.UI" Version="1.0.1-alpha.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Drastic.SampleVSExtension.DrasticUI\Drastic.SampleVSExtension.DrasticUI.csproj" />
+  </ItemGroup>
+</Project>
