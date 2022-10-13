@@ -3,28 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SampleVSExtension.DrasticUI", "Drastic.SampleVSExtension.DrasticUI\Drastic.SampleVSExtension.DrasticUI.csproj", "{07DEC43F-4939-4A33-B523-C4EED4B31116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.SampleVSExtension.DrasticUI", "Drastic.SampleVSExtension.DrasticUI\Drastic.SampleVSExtension.DrasticUI.csproj", "{07DEC43F-4939-4A33-B523-C4EED4B31116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SampleVSExtension.VSMac", "Drastic.SampleVSExtension.VSMac\Drastic.SampleVSExtension.VSMac.csproj", "{D7060D49-1838-4CDD-8743-E5192CB81F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.SampleVSExtension.VSMac", "Drastic.SampleVSExtension.VSMac\Drastic.SampleVSExtension.VSMac.csproj", "{D7060D49-1838-4CDD-8743-E5192CB81F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SampleVSExtension.Vsix", "Drastic.SampleVSExtension.Vsix\Drastic.SampleVSExtension.Vsix.csproj", "{F4B4029D-80D4-4FB5-9247-F24604D77329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		Release|arm64 = Release|arm64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|arm64.Build.0 = Debug|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Debug|x86.Build.0 = Debug|Any CPU
 		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|arm64.ActiveCfg = Release|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|arm64.Build.0 = Release|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|x86.ActiveCfg = Release|Any CPU
+		{07DEC43F-4939-4A33-B523-C4EED4B31116}.Release|x86.Build.0 = Release|Any CPU
 		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Release|arm64.ActiveCfg = Release|Any CPU
+		{D7060D49-1838-4CDD-8743-E5192CB81F15}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|arm64.ActiveCfg = Debug|arm64
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|arm64.Build.0 = Debug|arm64
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|x86.ActiveCfg = Debug|x86
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Debug|x86.Build.0 = Debug|x86
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|arm64.ActiveCfg = Release|arm64
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|arm64.Build.0 = Release|arm64
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|x86.ActiveCfg = Release|x86
+		{F4B4029D-80D4-4FB5-9247-F24604D77329}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A6F3DEF-D968-4E49-8E67-3BC1403856D1}
 	EndGlobalSection
 EndGlobal

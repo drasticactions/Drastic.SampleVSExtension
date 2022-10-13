@@ -9,6 +9,6 @@
     <AdditionalFiles Include="..\..\stylecop.json" Link="stylecop.json" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Drastic.UI" Version="1.0.1-alpha.0" />
+    <PackageReference Include="Drastic.UI" Version="1.0.1-alpha.8" />
   </ItemGroup>
 </Project>

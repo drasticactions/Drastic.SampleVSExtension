@@ -23,7 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudioMac.Sdk" Version="17.0.0" />
-    <PackageReference Include="Drastic.UI" Version="1.0.1-alpha.0" />
+    <PackageReference Include="Drastic.UI" Version="1.0.1-alpha.8" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Drastic.SampleVSExtension.DrasticUI\Drastic.SampleVSExtension.DrasticUI.csproj" />
